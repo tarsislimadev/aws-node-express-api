@@ -1,0 +1,29 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Action": [
+				"iot:DescribeEndpoint",
+				"iam:PutRolePolicy",
+				"iam:TagRole",
+				"iam:PassRole",
+				"iam:GetRole",
+				"iam:CreateRole",
+				"iam:DeleteRole",
+				"iam:AttachRolePolicy",
+				"iam:DetachRolePolicy",
+				"ssm:PutParameter",
+				"ssm:GetParameter",
+				"ssm:GetParameters",
+				"ssm:DeleteParameter",
+				"lambda:*",
+				"logs:*",
+				"apigateway:*",
+				"cloudformation:*",
+				"s3:*"
+			],
+			"Resource": "*"
+		}
+	]
+}
